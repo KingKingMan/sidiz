@@ -86,27 +86,21 @@ body {
   font-size: 45px;
 }
 
-.head .section_01 .input_box {
-  border: 1px solid #ddd;
+.head .section_01 .input_box input {
+  width: 218px;
   height: 40px;
   border-radius: 40px;
-  width: 218px;
-}
-
-.head .section_01 .input_box input {
-  border: none;
+  border: 1px solid #ddd;
   background-color: inherit;
-}
-
-.head .section_01 .input_box button {
-  border: none;
   position: relative;
+  padding: 0 20px 0 60px;
 }
 
-.head .section_01 .input_box button i {
+.head .section_01 .input_box i {
   font-size: 26px;
-  position: absolute;
-  top: -14px;
+  position: relative;
+  top: 6px;
+  right: 200px;
 }
 
 .head .nav .section_02 {
@@ -161,11 +155,24 @@ body {
 .item ul li .img {
   width: 299px;
   height: 299px;
-  background-image: url('../images/item.jpg');
+  /* background-image: url('../images/item.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin-bottom: 20px;
+}
+
+.item ul li .img_01 {
+  background-image: url('../images/1.jpg');
+}
+.item ul li .img_02 {
+  background-image: url('../images/2.jpg');
+}
+.item ul li .img_03 {
+  background-image: url('../images/3.jpg');
+}
+.item ul li .img_04 {
+  background-image: url('../images/4.jpg');
 }
 
 .item h3 {
@@ -193,6 +200,16 @@ body {
 /* item best_review */
 .item .best_review_ul li {
   width: 408px;
+}
+
+.item ul li .img_05 {
+  background-image: url('../images/5.jpg');
+}
+.item ul li .img_06 {
+  background-image: url('../images/6.jpg');
+}
+.item ul li .img_07 {
+  background-image: url('../images/7.jpg');
 }
 
 .best_review ul li h2 {
@@ -253,6 +270,19 @@ body {
   position: relative;
 }
 
+.item ul li .img_08 {
+  background-image: url('../images/8.jpg');
+}
+.item ul li .img_09 {
+  background-image: url('../images/9.jpg');
+}
+.item ul li .img_10 {
+  background-image: url('../images/10.jfif');
+}
+.item ul li .img_11 {
+  background-image: url('../images/11.jpg');
+}
+
 .best_product ul li .box {
   width: 30px;
   height: 30px;
@@ -273,6 +303,63 @@ body {
 
 .best_product ul li .made {
   margin-top: 12px;
+}
+
+/* best_task */
+
+.item ul li .img_12 {
+  background-image: url('../images/12.jpg');
+}
+.item ul li .img_13 {
+  background-image: url('../images/13.jpg');
+}
+.item ul li .img_14 {
+  background-image: url('../images/14.jpg');
+}
+.item ul li .img_15 {
+  background-image: url('../images/15.jpg');
+}
+
+/* best_kids */
+.item ul li .img_16 {
+  background-image: url('../images/16.jpg');
+}
+.item ul li .img_17 {
+  background-image: url('../images/17.jpg');
+}
+.item ul li .img_18 {
+  background-image: url('../images/18.jpg');
+}
+.item ul li .img_19 {
+  background-image: url('../images/19.jpg');
+}
+
+/* best_home */
+.item ul li .img_20 {
+  background-image: url('../images/20.jpg');
+}
+.item ul li .img_21 {
+  background-image: url('../images/21.jpg');
+}
+.item ul li .img_22 {
+  background-image: url('../images/22.jpg');
+}
+.item ul li .img_23 {
+  background-image: url('../images/23.jpg');
+}
+
+/* best_acc */
+.item ul li .img_24 {
+  background-image: url('../images/24.jpg');
+}
+.item ul li .img_25 {
+  background-image: url('../images/25.jfif');
+}
+.item ul li .img_26 {
+  background-image: url('../images/26.jpg');
+}
+.item ul li .img_27 {
+  background-image: url('../images/27.jpg');
 }
 
 /* bg_banner */
@@ -339,6 +426,44 @@ body {
   width: 50px;
   height: 50px;
   font-size: 26px;
+}
+
+/* recommend */
+.item ul li .img_28 {
+  background-image: url('../images/28.jpg');
+}
+.item ul li .img_29 {
+  background-image: url('../images/29.jpg');
+}
+.item ul li .img_30 {
+  background-image: url('../images/30.jpg');
+}
+.item ul li .img_31 {
+  background-image: url('../images/31.jpg');
+}
+.item ul li .img_32 {
+  background-image: url('../images/32.jpg');
+}
+.item ul li .img_33 {
+  background-image: url('../images/33.jpg');
+}
+.item ul li .img_34 {
+  background-image: url('../images/34.jpg');
+}
+.item ul li .img_35 {
+  background-image: url('../images/35.jpg');
+}
+.item ul li .img_36 {
+  background-image: url('../images/36.jpg');
+}
+.item ul li .img_37 {
+  background-image: url('../images/37.jpg');
+}
+.item ul li .img_38 {
+  background-image: url('../images/38.jpg');
+}
+.item ul li .img_39 {
+  background-image: url('../images/39.jpg');
 }
 
 /* footer */
