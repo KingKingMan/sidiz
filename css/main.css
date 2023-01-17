@@ -612,3 +612,7 @@ body {
 .copyright .last .logo {
   margin-right: 10px;
 }
+
+/* :hover */
+.item_none ul a li .img:hover {
+}
